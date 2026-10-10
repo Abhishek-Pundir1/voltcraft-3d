@@ -1,0 +1,36 @@
+# Dependencies
+/vendor/
+/node_modules/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Uploads (user-generated content)
+assets/uploads/*
+!assets/uploads/.gitkeep
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# OS
+*.log
+*.tmp
+
+# Tests scratch
+tests/test_board_sample.png
+tests/test_feature1_http.ps1
+
+# Stray files in api/
+api/*.txt
+
+# Stray files in includes/
+includes/.ph
